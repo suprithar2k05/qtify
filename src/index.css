@@ -5,9 +5,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 1.6rem;
+  background-color: #121212 !important;
+  color: #FFFFFF !important;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header {
+  background-color: #34C94B;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#search:hover {
+  cursor: pointer
+}
+
+.header input, i {
+  font-size: 1.5rem !important;
+}
+
+.header-btn {
+  color: #34C94B !important;
+  font-size: 1.5rem !important;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 30rem;
+}
+
+.hero h1 {
+  font-weight: 700 !important;
 }
