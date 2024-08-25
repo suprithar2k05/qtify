@@ -1,8 +1,6 @@
-body {
+#body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.6rem;
@@ -35,8 +33,8 @@ code {
   cursor: pointer
 }
 
-.header input, i {
-  font-size: 1.5rem !important;
+.header input, i.fa-magnifying-glass {
+  font-size: 1.5rem;
 }
 
 .header-btn {
@@ -44,6 +42,20 @@ code {
   font-size: 1.5rem !important;
 }
 
+.react-multiple-carousel__arrow {
+  background: #34C94B !important;
+}
+
+.accordion-header:not(:first-child){
+  margin-top: 1rem;
+}
+
+.accordion-header button {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #121212;
+  color: #fff;
+}
 .hero {
   display: flex;
   justify-content: center;

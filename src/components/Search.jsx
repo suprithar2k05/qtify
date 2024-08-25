@@ -9,7 +9,7 @@ export default () => {
           aria-label="search"
           aria-describedby="search-bar"
         />
-         <InputGroup.Text id="search"><i class="fa-solid fa-magnifying-glass"></i></InputGroup.Text>
+         <InputGroup.Text id="search"><i className="fa-solid fa-magnifying-glass"></i></InputGroup.Text>
       </InputGroup>
     </>
   );

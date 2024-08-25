@@ -9,8 +9,13 @@ function App() {
     <div>
       <Header />
       <Hero />
-      <SongList />
+      <SongList type='albums/top' name='Top Albums' />
+      <SongList type='albums/new' name='New Albums' />
+      <hr style={{ border: '1px solid #34C94B' }} />
+      <SongList type='songs' name='Songs' />
+      <hr style={{ border: '1px solid #34C94B' }} />
       <FAQ />
+      <hr />
       <SongPlay />
     </div>
   );
